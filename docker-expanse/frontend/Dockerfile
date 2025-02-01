@@ -1,1 +1,3 @@
-FROM nginx:8
+FROM nginx
+COPY code /usr/share/nginx/html
+
